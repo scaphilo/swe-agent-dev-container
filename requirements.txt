@@ -1,0 +1,16 @@
+anthropic==0.25.0
+config==0.5.1
+datasets==2.18.0
+docker==7.0.0
+gymnasium==0.29.1
+numpy==1.26.4
+openai==1.17.0
+pandas==2.2.1
+rich==13.7.1
+ruamel.yaml==0.18.6
+swebench==1.0.11
+tenacity==8.2.3
+unidiff==0.7.5
+simple_parsing==0.1.5
+together==1.0.1
+ollama==0.1.8
