@@ -14,3 +14,5 @@ unidiff==0.7.5
 simple_parsing==0.1.5
 together==1.0.1
 ollama==0.1.8
+flake8==7.0.0
+GitPython==3.1.34
