@@ -1,7 +1,7 @@
 anthropic==0.25.0
 config==0.5.1
 datasets==2.18.0
-docker==7.0.0
+docker==7.1.0
 gymnasium==0.29.1
 numpy==1.26.4
 openai==1.17.0
