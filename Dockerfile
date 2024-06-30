@@ -1,5 +1,10 @@
 FROM python:3.10
 
+# Update package list and install dependencies
+RUN apt-get update && apt-get install -y \
+    rabbitmq-server \
+    && rm -rf /var/lib/apt/lists/* \
+
 # Set the working directory
 WORKDIR /app
 
