@@ -22,9 +22,6 @@ COPY requirements.txt /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Install pandoc-plantuml filter (if not in requirements.txt)
-RUN pip install pandoc-plantuml
-
 # Install Docker CLI using the official Docker installation script
 RUN curl -fsSL https://get.docker.com -o get-docker.sh && \
     sh get-docker.sh
